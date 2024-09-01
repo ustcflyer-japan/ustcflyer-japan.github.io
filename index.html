@@ -1259,34 +1259,31 @@ pre[class*="language-"] {
             left: 0;
             width: 200px;
             height: 100%;
-            background-color: #f4f4f4;
+            background-color: #000;
             padding: 20px;
-            box-shadow: 2px 0 5px rgba(0,0,0,0.1);
         }
-
-        .sidebar h2 {
-            font-size: 24px;
-            margin-bottom: 20px;
-        }
-
+        
         .sidebar ul {
             list-style-type: none;
             padding: 0;
+	    text-align: center;
         }
 
         .sidebar ul li {
-            margin: 10px 0;
+            margin: 20px 0;
         }
 
         .sidebar ul li a {
             text-decoration: none;
-            color: #333;
+	    color: #fff; /* 将侧边栏的字体颜色改为白色 */
             font-size: 18px;
+	    display: inline-block; /* 确保链接内容可以居中 */
         }
 
         .sidebar ul li a:hover {
-            color: #007bff;
+            color: #006400; /* 将链接悬停时的颜色改为暗绿色 */
         }
+
 
         .content {
             margin-left: 250px; /* 与侧边栏宽度+间距相匹配 */
@@ -1296,7 +1293,6 @@ pre[class*="language-"] {
 </head>
 <body>
  <div class="sidebar">
-        <h2>目录</h2>
         <ul>
             <li><a href="#section1">章节 1</a></li>
             <li><a href="#section2">章节 2</a></li>
