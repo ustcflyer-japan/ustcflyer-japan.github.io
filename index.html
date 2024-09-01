@@ -1261,7 +1261,6 @@ pre[class*="language-"] {
     left: 0;
     width: 200px;
     height: 100%;
-    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3); /* 添加阴影效果 */
 }
 
 .sidebar ul {
@@ -1272,18 +1271,22 @@ pre[class*="language-"] {
 }
 
 .sidebar ul li {
-    margin: 20px 0;            /* 列表项上下间距 */
+    margin: 24px 0;            /* 列表项上下间距 */
 }
-
+.sidebar h1{
+    font-size: 2em;           /* 字体大小 */
+    color: #fff;               /* 文字颜色 */
+    display: inline-block;     /* 确保可以居中 */
+}
 .sidebar ul li a {
     text-decoration: none;     /* 去掉下划线 */
-    font-size: 18px;           /* 字体大小 */
+    font-size: 24px;           /* 字体大小 */
     color: #fff;               /* 链接文字颜色 */
     display: inline-block;     /* 确保链接可以居中 */
 }
 
 .sidebar ul li a:hover {
-    color: #4b0082;            /* 悬停时颜色为暗紫色 */
+    color: #006400;            /* 悬停时颜色为暗绿色 */
 }
 
         .content {
@@ -1295,6 +1298,7 @@ pre[class*="language-"] {
 <body>
  <div class="sidebar">
         <ul>
+	<h1>USTC日本飞跃群</h1>
             <li><a href="#section1">章节 1</a></li>
             <li><a href="#section2">章节 2</a></li>
             <li><a href="#section3">章节 3</a></li>
