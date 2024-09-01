@@ -23,6 +23,6 @@
 
 ## 图片引用格式
 
-如果想要在https://ustcflyer-japan.github.io/\<repository名>或者https://ustcflyer-japan.github.io/<repository名>/<html文件名>中添加图片，请在repository中创建images文件夹并把图片存放于此，需要在html文件中引用时采用如下格式
+如果想要在https://ustcflyer-japan.github.io/<repository名>或者https://ustcflyer-japan.github.io/<repository名>/<html文件名>中添加图片，请在repository中创建images文件夹并把图片存放于此，需要在html文件中引用时采用如下格式
 
 \<img src="https://ustcflyer-japan.github.io/<repository名>/images/<图片名.png>" alt="Description" width="宽度" height="高度">
