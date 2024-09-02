@@ -1250,11 +1250,13 @@ pre[class*="language-"] {
 .sidebar {
     background-color: #000000; /* 黑色背景 */
     color: #ffffff; /* 侧边栏文字颜色为白色 */
-    width: 250px;
-    height: 100vh;
-    position: fixed;
     display: flex;
     flex-direction: column;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 250px;
+    height: 100%;
 }
 
 .sidebar ul {
@@ -1289,7 +1291,8 @@ pre[class*="language-"] {
 }
 
         .content {
-            margin-left: 300px; /* 与侧边栏宽度+间距相匹配 */
+	    margin-left: 250px; /* 与侧边栏宽度+间距相匹配 */
+            padding: 50px;
         }
     </style>
 </head>
